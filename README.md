@@ -8,10 +8,9 @@ Inside the project root folder,install packages using the following command
 
 ```
 npm install
-
 ```
-
 Running the Application
 Run the application with the following command
-
+```
 npx react-native run-ios
+```
