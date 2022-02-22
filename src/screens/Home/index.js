@@ -71,7 +71,7 @@ const HomeScreen = ({ navigation }) => {
     if (currentLocation) {
       const updatedCityLists = listCities(currentLocation);
       //Refresh every one min
-      setTimeout(() => {
+      setInterval(() => {
         setListCities(updatedCityLists);
       }, 1000);
     }
