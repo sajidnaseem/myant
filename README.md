@@ -1,4 +1,4 @@
-# myant
+# Myant
 
 Weather App using React Native and WeatherAPI
 Simple weather app built using react native. The application gets the location of the device and displays weather details according to the current device location.
